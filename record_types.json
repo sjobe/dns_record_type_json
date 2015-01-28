@@ -56,6 +56,7 @@
       "func":"Stores PKIX, SPKI, PGP, etc."
    },
    {
+      "type":"CNAME",
       "decimal_value":5,
       "rfc":"RFC 1035[1]",
       "description":"Canonical name record",
@@ -76,6 +77,7 @@
       "func":"For publishing DNSSEC trust anchors outside of the DNS delegation chain. Uses the same format as the DS record. RFC 5074 describes a way of using these records."
    },
    {
+      "type":"DNAME",
       "decimal_value":39,
       "rfc":"RFC 2672",
       "description":"Delegation Name",
@@ -96,6 +98,7 @@
       "func":"The record used to identify the DNSSEC signing key of a delegated zone"
    },
    {
+      "type":"HIP",
       "decimal_value":55,
       "rfc":"RFC 5205",
       "description":"Host Identity Protocol",
@@ -123,18 +126,21 @@
       "func":"Used with some cryptographic systems (not including DNSSEC) to identify a key management agent for the associated domain-name. Note that this has nothing to do with DNS Security. It is Informational status, rather than being on the IETF standards-track. It has always had limited deployment, but is still in use."
    },
    {
+      "type":"LOC",
       "decimal_value":29,
       "rfc":"RFC 1876",
       "description":"Location record",
       "func":"Specifies a geographical location associated with a domain name"
    },
    {
+      "type":"MX",
       "decimal_value":15,
       "rfc":"RFC 1035[1]",
       "description":"Mail exchange record",
       "func":"Maps a domain name to a list of message transfer agents for that domain"
    },
    {
+      "type":"NAPTR",
       "decimal_value":35,
       "rfc":"RFC 3403",
       "description":"Naming Authority Pointer",
@@ -204,6 +210,7 @@
       "func":"Specifies authoritative information about a DNS zone, including the primary name server, the email of the domain administrator, the domain serial number, and several timers relating to refreshing the zone."
    },
    {
+      "type":"SRV",
       "decimal_value":33,
       "rfc":"RFC 2782",
       "description":"Service locator",
